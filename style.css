@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+
+img{
+    width: 17%;
+    border-radius: 100%;
+}
+
+.intro{
+    background: radial-gradient(62.23% 196.67% at 112.23% 45.28%, #262C3A 3.15%, #1E2127 100%); 
+    height: 100vh;
+    
+}
+.nots{
+    color: antiquewhite;
+    height: 100vh
+    
+}
+.position_intro{
+   
+    display: flex;
+    padding: 10%;
+}
+
+h1{
+    color: white;
+    font-size: 57px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    
+}
+h3{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: initial ;
+
+}
+.text_intro{
+    left: 40px;
+}
