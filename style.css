@@ -20,6 +20,12 @@ body{
     background: #2482A6;
 }
 
+.container-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10vh 90vh;
+}
+
 header{
     
     grid-column-start:1 ;
@@ -31,11 +37,7 @@ main{
     grid-column-end: 5;
 }
 
-.container-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10vh 90vh;
-}
+
 
 .style_header{
     display: flex;
@@ -78,4 +80,29 @@ a, li, ul {
     display: flex;
 
     align-items: center;
+    justify-content: space-between;
+
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+
+    
+}
+
+.main-content h1 {
+    font-size: 72px;
+    color: rgb(24, 57, 94);
+    
+}
+.main-content h3 {
+    font-size: 23.5px;
+    color: rgb(24, 57, 94);
+}
+
+
+.main-content img{
+    max-width: 30%;
+    
+    width: 45%;
+    
 }
